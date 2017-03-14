@@ -4,6 +4,7 @@
 [![][coverage img]][coverage]
 [![][gitter img]][gitter]
 [![][license img]][license]
+[![][twitter img]][twitter]
 
 [travis]:https://travis-ci.org/trydent-io/sales-taxes-problem
 [travis img]:https://travis-ci.org/trydent-io/sales-taxes-problem.svg?branch=master
@@ -15,4 +16,7 @@
 [gitter img]:https://badges.gitter.im/tryIO.svg
 
 [license]:LICENSE.txt
-[license img]:https://img.shields.io/badge/License-MIT-blue.svg
+[license img]:https://img.shields.io/badge/license-MIT-orange.svg
+
+[twitter]:https://twitter.com/lucaguada
+[twitter img]:https://img.shields.io/badge/twitter-TryIO-blue.svg
