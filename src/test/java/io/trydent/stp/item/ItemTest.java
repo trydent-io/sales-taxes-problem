@@ -5,6 +5,14 @@ import org.junit.Test;
 
 public class ItemTest {
   @Test
+  public void plain() {
+    final double price = 12.50;
+    final Item item = new ItemImpl(price);
+
+    Assert.assertEquals(price, item.price(), 0.0);
+  }
+
+  @Test
   public void exempted() throws Exception {
     final double price = 12.50;
     final Item item = ExemptedItem.of(Price.of(price));
