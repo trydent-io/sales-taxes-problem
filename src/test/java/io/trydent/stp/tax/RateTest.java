@@ -6,19 +6,19 @@ import org.junit.Test;
 
 public class RateTest {
   @Test(expected = SalesTaxException.class)
-  public void below() throws Exception {
+  public void below() {
     final double value = -101;
     final Rate rate = Rate.of(value);
   }
 
   @Test(expected = SalesTaxException.class)
-  public void beyond() throws Exception {
+  public void beyond() {
     final double value = 101;
     final Rate rate = Rate.of(value);
   }
 
   @Test
-  public void of() throws Exception {
+  public void of() {
     final double value = 55;
     final Rate rate = Rate.of(value);
 

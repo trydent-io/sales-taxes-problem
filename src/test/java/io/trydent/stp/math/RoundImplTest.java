@@ -21,4 +21,12 @@ public class RoundImplTest {
 
     Assert.assertEquals(12.33d, rouned, 0d);
   }
+
+  @Test
+  public void nearest1() {
+    final double value = 1.475;
+    final double rounded = Round.nearest().apply(value);
+
+    Assert.assertEquals(1.5, rounded, 0.0);
+  }
 }
