@@ -5,10 +5,6 @@ public interface ImportedItem extends Item {
     return new ImportedItemImpl(new ItemImpl(price.value()));
   }
 
-  static <I extends ExemptedItem & Item> ImportedItem fromExempted(final I item) {
-    return new ImportedItemImpl(item);
-  }
-
   static <I extends TaxedItem & Item> ImportedItem fromTaxed(final I item) {
     return new ImportedItemImpl(item);
   }

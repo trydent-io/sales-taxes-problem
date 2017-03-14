@@ -7,9 +7,5 @@ public interface DecimalOperation {
     return new DecimalOperationImpl(round, BigDecimal::add);
   }
 
-  static DecimalOperation subtractWith(final Round round) {
-    return new DecimalOperationImpl(round, BigDecimal::subtract);
-  }
-
   double apply(double first, double... rest);
 }

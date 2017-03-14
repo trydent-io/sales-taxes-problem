@@ -5,7 +5,4 @@ public interface ExemptedItem extends Item {
     return new ExemptedItemImpl(new ItemImpl(price.value()));
   }
 
-  static <I extends ImportedItem & Item> ExemptedItem fromImported(final I item) {
-    return new ExemptedItemImpl(item);
-  }
 }
