@@ -2,7 +2,7 @@ package io.trydent.stp.tax;
 
 import io.trydent.stp.item.Item;
 
-final class TaxImpl implements Tax {
+final class TaxImpl implements Tax<Item> {
   private final double rate;
 
   TaxImpl(final double rate) {
