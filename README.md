@@ -20,10 +20,6 @@ Execute the following command in Unix-like systems:
 or in Windows console:
 
   <code><pre>mvnw.cmd clean install</pre></code>
-  
-### How-to: on-line
-
-Go to the [Travis project page][travis] and launch the rebuild-command.
 
 Made with :tea:
 
